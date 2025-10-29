@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="navber">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-adress border">
+                <p class="add-1">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-2">Bangladesh</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-signin border" id="dClick">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-2">Account & Lists</p>
+            </div>
+            <div class="nav-returns border">
+                <p><span>Return</span></p>
+                <p class="nav-2">& Orders</p>
+            </div>
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <form id="signInForm" class="hidden">
+            <h2>Sign In</h2>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <button type="submit">Create Account</button>
+        </form>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>sell</p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+    <div class="main-section"></div>
+    <div class="shop-section">
+        <div class="box">
+            <div class="box-content">
+                <h2>Amazon Gadget Store</h2>
+                <div class="box-img" style="background-image: url('short-img-gdt1.jpg');"></div>
+                <p id="click1">See more from amazon gadgets</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Fantastic Finds for Home</h2>
+                <div class="box-img" style="background-image: url('short-img-gdt2.jpg');"></div>
+                <p id="click2">See more</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Shop activity trackers & watches</h2>
+                <div class="box-img" style="background-image: url('short-img-gdt3.jpeg');"></div>
+                <p id="click3">Shop now</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Shop deals in Fashion</h2>
+                <div class="box-img" style="background-image: url('short-img-gdt4.jpeg');"></div>
+                <p id="click4">See all deals</p>
+            </div>
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="box">
+            <div class="box-content">
+                <h2>Warm & welcoming decor</h2>
+                <div class="box-img" style="background-image: url('short-img-gdt5.jpg');"></div>
+                <p id="click5">See more</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Beauty steals under $25</h2>
+                <div class="box-img" style="background-image: url('short-img-gdt6.jpeg');"></div>
+                <p id="click6">See more</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Have more fun with family</h2>
+                <div class="box-img" style="background-image: url('short-img-gdt7.jpg');"></div>
+                <p id="click7">Shop now</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Level up your gaming</h2>
+                <div class="box-img" style="background-image: url('short-img-gdt8.jpg');"></div>
+                <p id="click8">See all deals</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-panel1">
+            Back to top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+              <p>Get to Know Us</p>
+              <a>Careers</a>
+              <a>Blog</a>
+              <a>About Amazon</a>
+              <a>Investor Relations</a>
+              <a>Amazon Devices</a>
+              <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card/a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policiess</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
